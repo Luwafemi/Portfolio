@@ -1,0 +1,360 @@
+@import url("https://fonts.googleapis.com/css2?family=Chewy&display=swap");
+.fill {
+  fill: #4a69a7;
+}
+
+.phone {
+  fill: white;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.root {
+  background-color: black;
+  color: #fff;
+  font-family: Chewy, cursive;
+}
+
+.navbar.navbar-light.bg-dark.fixed-top {
+  background-color: black !important;
+  z-index: 3;
+}
+
+.navvv {
+  background: -webkit-gradient(linear, left top, right top, from(#9bafd9), to(#103784));
+  background: linear-gradient(90deg, #9bafd9 0%, #103784 100%);
+  margin-top: 10px;
+  padding-top: 40px;
+  padding-right: 30px;
+  height: 100vh;
+  width: 290px;
+  position: fixed;
+  top: -10px;
+  right: 0px;
+  overflow-y: scroll;
+}
+
+/* .......................................................... */
+.collapse.navbar-collapse::-webkit-scrollbar {
+  display: none;
+}
+
+/* ...........................SCROLLBAR...................................... */
+::-webkit-scrollbar {
+  width: 10px;
+  background-color: #fff;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #050303;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #f5f9fa;
+  border-radius: 10px;
+  border: 2px solid #fff;
+}
+
+/* ................................................................. */
+.navbar-light .navbar-toggler-icon {
+  background-color: white;
+}
+
+li a {
+  color: white !important;
+  font-size: 23px;
+  margin-top: 9px;
+  margin-bottom: 50px;
+}
+
+.social-icons svg {
+  width: 20px;
+  margin-left: 17px;
+  margin-top: 40px;
+}
+
+.navbar-collapse.collapsing {
+  height: auto;
+  -webkit-transition: right 0.2s ease;
+  transition: right 0.2s ease;
+  right: -100%;
+}
+
+.navbar-collapse.show {
+  -webkit-transition: right 0.2s ease;
+  transition: right 0.2s ease;
+  right: 0;
+}
+
+#avatar {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+}
+
+.profile {
+  margin-top: 100px;
+}
+
+.contact {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-bottom: 19px;
+}
+
+.contact::after {
+  content: "";
+  width: 95%;
+  height: 1px;
+  background-color: grey;
+  margin: auto;
+  margin-top: 4px;
+}
+
+.techStack {
+  margin-bottom: 30px;
+}
+
+.techStack::after {
+  content: "";
+  width: 99%;
+  height: 0.4px;
+  background-color: grey;
+  margin: auto;
+  margin-top: 4px;
+}
+
+footer {
+  padding-bottom: 10px;
+  margin-top: 50px;
+  color: #bed4ff;
+  font-style: italic;
+  font-size: 10px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.socials {
+  font-size: 30px;
+  margin-right: 18px;
+  color: #5a5a5a;
+}
+
+.tools {
+  height: 60px;
+  width: 100px;
+  margin-right: 18px;
+  margin-bottom: 23px;
+}
+
+.card {
+  -webkit-box-shadow: 5px 5px 5px 1px azure;
+          box-shadow: 5px 5px 5px 1px azure;
+  margin-bottom: 20px;
+  background-color: mintcream;
+  font-family: cursive, Chewy;
+}
+
+.card a {
+  opacity: 1;
+  background: -webkit-gradient(linear, left top, right top, from(#145276), to(#81cfca));
+  background: linear-gradient(90deg, #145276 0%, #81cfca 100%);
+  border: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.btn-secondary:focus {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+ul {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0;
+  margin-right: auto;
+}
+
+ul.transition {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  z-index: 10;
+  height: 3110px;
+  width: 100%;
+  top: 0;
+  left: 0;
+  margin: 0;
+  pointer-events: none;
+}
+
+ul.transition li {
+  background: white;
+  width: 20%;
+  margin: 0;
+  padding: 0;
+}
+
+.hello {
+  color: green;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: absolute;
+  opacity: 0;
+  z-index: 10;
+  height: 100vh;
+  width: 100%;
+  top: 0;
+  left: 0;
+  margin: 0;
+  pointer-events: none;
+  margin-top: 180px;
+}
+
+.emoji {
+  height: 100px;
+  margin-bottom: 50px;
+}
+
+.menu:focus {
+  border: none;
+  outline: none;
+}
+
+.backgroundColorWhite {
+  background-color: #ebe5e5;
+  color: black;
+}
+
+.navColorWhite {
+  background: -webkit-gradient(linear, left top, right top, from(#848d94), to(#61696b));
+  background: linear-gradient(90deg, #848d94 0%, #61696b 100%);
+}
+
+.telegramFillWhite {
+  fill: #7a8389;
+}
+
+.footerColorWhite {
+  color: #746c09;
+}
+
+.phoneColorWhite {
+  fill: #998f8f;
+}
+
+.cardShadowWhite {
+  -webkit-box-shadow: 5px 5px 5px 1px seashell;
+          box-shadow: 5px 5px 5px 1px seashell;
+}
+
+.popover-header {
+  color: slategray;
+}
+
+.popover-body {
+  font-family: monospace;
+}
+
+/* 
+Extra small     <576px
+Small           >=576px
+Medium          >=768px
+Large           >=992px
+Extra large     >=1200px
+ */
+@media (min-width: 1100px) {
+  .root {
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  }
+}
+
+@media (min-width: 768px) {
+  ul.transition {
+    height: 2710px;
+  }
+  .card {
+    margin-right: 60px;
+  }
+  .html,
+  .css,
+  .py {
+    height: 100px;
+    width: 140px;
+  }
+  .py {
+    margin-top: 32px !important;
+  }
+  .tools.js {
+    height: 165px !important;
+    width: 187px !important;
+  }
+  .tools.sass {
+    height: 107px !important;
+    width: 199px !important;
+  }
+  .tools.bootstrap {
+    height: 114px !important;
+    width: 110px !important;
+  }
+  .tools.node {
+    height: 120px !important;
+    width: 211px !important;
+  }
+  .tools.react {
+    height: 150px !important;
+    width: 211px !important;
+  }
+  .tools.mongo {
+    height: 131px !important;
+    width: 149px !important;
+  }
+  .tools.materialize {
+    height: 103px !important;
+    width: 149px !important;
+    margin-top: 15px;
+  }
+  .tools.git {
+    height: 117px !important;
+    width: 135px !important;
+  }
+  .tools.jquery {
+    height: 112px !important;
+    width: 118px !important;
+  }
+  .tools.express {
+    height: 84px !important;
+    width: 158px !important;
+  }
+  .tools.regex {
+    height: 84px !important;
+    width: 158px !important;
+  }
+}
+
+@media (max-width: 767px) {
+  .card {
+    width: 18em;
+    margin-left: 20px;
+  }
+}
