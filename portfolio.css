@@ -1,6 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Chewy&display=swap");
 .fill {
-  fill: #4a69a7;
+  /* fill: #4a69a7; */
+  fill: #14316a;
+  
 }
 
 .phone {
@@ -9,7 +11,7 @@
 
 * {
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
@@ -26,8 +28,14 @@
 }
 
 .navvv {
-  background: -webkit-gradient(linear, left top, right top, from(#9bafd9), to(#103784));
-  background: linear-gradient(90deg, #9bafd9 0%, #103784 100%);
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#9bafd9),
+    to(#103784)
+  );
+  background: linear-gradient(90deg, #1d2124 0%, #103784 100%);
   margin-top: 10px;
   padding-top: 40px;
   padding-right: 30px;
@@ -104,8 +112,8 @@ li a {
 .contact {
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   margin-bottom: 19px;
 }
 
@@ -137,7 +145,9 @@ footer {
   color: #bed4ff;
   font-style: italic;
   font-size: 10px;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
 .socials {
@@ -155,17 +165,27 @@ footer {
 
 .card {
   -webkit-box-shadow: 5px 5px 5px 1px azure;
-          box-shadow: 5px 5px 5px 1px azure;
+  box-shadow: 5px 5px 5px 1px azure;
   margin-bottom: 20px;
   background-color: mintcream;
   font-family: cursive, Chewy;
 }
 
 .card a {
+  font-size: 9px;
   opacity: 1;
-  background: -webkit-gradient(linear, left top, right top, from(#145276), to(#81cfca));
-  background: linear-gradient(90deg, #145276 0%, #81cfca 100%);
+  /* background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#145276),
+    to(#81cfca)
+  ); */
+  /* background: linear-gradient(210deg, #145276 70%, #81cfca 100%); */
+  background: linear-gradient(180deg, #034750 0%, #22273b 97%);
+  
   border: none;
+
 }
 
 a {
@@ -174,7 +194,7 @@ a {
 
 .btn-secondary:focus {
   -webkit-box-shadow: none;
-          box-shadow: none;
+  box-shadow: none;
 }
 
 ul {
@@ -192,7 +212,7 @@ ul.transition {
   display: flex;
   position: absolute;
   z-index: 10;
-  height: 3110px;
+  height: 3003px;
   width: 100%;
   top: 0;
   left: 0;
@@ -211,14 +231,14 @@ ul.transition li {
   color: green;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   position: absolute;
   opacity: 0;
   z-index: 10;
@@ -247,7 +267,13 @@ ul.transition li {
 }
 
 .navColorWhite {
-  background: -webkit-gradient(linear, left top, right top, from(#848d94), to(#61696b));
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#848d94),
+    to(#61696b)
+  );
   background: linear-gradient(90deg, #848d94 0%, #61696b 100%);
 }
 
@@ -265,7 +291,7 @@ ul.transition li {
 
 .cardShadowWhite {
   -webkit-box-shadow: 5px 5px 5px 1px seashell;
-          box-shadow: 5px 5px 5px 1px seashell;
+  box-shadow: 5px 5px 5px 1px seashell;
 }
 
 .popover-header {
@@ -283,78 +309,204 @@ Medium          >=768px
 Large           >=992px
 Extra large     >=1200px
  */
-@media (min-width: 1100px) {
-  .root {
-    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  }
+
+ @media (max-width: 408px) {
+ ul.transition {
+ 
+  height: 3100px;
+ 
+}
+ }
+@media (min-width: 768px) {
+.col-md-5 {
+    /* flex: 0 0 40.666667%; */
+    /* flex: 0 0 38.666667%; */
+    flex: 0 0 330px;
 }
 
-@media (min-width: 768px) {
   ul.transition {
-    height: 2710px;
+    height: 2557px;
   }
   .card {
     margin-right: 60px;
+    margin-bottom: 26px;
+    border-radius: 5px;
+    width: 18px;
+    /* box-shadow:4px 3px 5px 1px azure; */
+    /* box-shadow:none; */
+    /* box-shadow: 0 10px 6px -6px #777; */
+
+
   }
+ 
+  body {
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .contact-appear {
+    display: block !important;
+    /* margin-bottom: 10px; */
+  }
+  .footer-disappear {
+    display: none;
+  }
+  .contact-disappear {
+    display: none;
+  }
+
+  /* ........................................................................................ */
   .html,
   .css,
   .py {
-    height: 100px;
-    width: 140px;
+    height: 80px;
+    width: 100px;
   }
   .py {
     margin-top: 32px !important;
   }
   .tools.js {
-    height: 165px !important;
-    width: 187px !important;
+    height: 145px !important;
+    width: 147px !important;
   }
   .tools.sass {
-    height: 107px !important;
-    width: 199px !important;
+    height: 79px !important;
+    width: 149px !important;
   }
   .tools.bootstrap {
-    height: 114px !important;
-    width: 110px !important;
+    height: 79px !important;
+    width: 80px !important;
   }
   .tools.node {
-    height: 120px !important;
-    width: 211px !important;
+    height: 90px !important;
+    width: 220px !important;
   }
   .tools.react {
-    height: 150px !important;
-    width: 211px !important;
+    height: 129px !important;
+    width: 176px !important;
   }
   .tools.mongo {
-    height: 131px !important;
-    width: 149px !important;
+    margin-top: -13px !important;
+    height: 123px !important;
+    width: 122px !important;
   }
   .tools.materialize {
-    height: 103px !important;
-    width: 149px !important;
+    height: 86px !important;
+    width: 109px !important;
     margin-top: 15px;
   }
   .tools.git {
-    height: 117px !important;
-    width: 135px !important;
+    height: 104px !important;
+    width: 109px !important;
+    margin-top: -3px;
   }
   .tools.jquery {
-    height: 112px !important;
-    width: 118px !important;
+    height: 92px !important;
+    width: 88px !important;
   }
   .tools.express {
-    height: 84px !important;
-    width: 158px !important;
+    height: 65px !important;
+    width: 140px !important;
   }
   .tools.regex {
-    height: 84px !important;
-    width: 158px !important;
+    height: 64px !important;
+    width: 140px !important;
   }
 }
-
+@media (min-width: 1168px) {
+  body {
+    max-width: 950px;
+  }
+}
 @media (max-width: 767px) {
   .card {
     width: 18em;
     margin-left: 20px;
   }
+  #about {
+    font-size: 8px !important;
+    margin-left: 9px !important;
+  }
 }
+@media (min-width: 1050px) {
+  html::before {
+    content: "";
+    top: 50px;
+    height: 2507px;
+    width: 150px;
+    /* max-height: 2270px;
+    max-width: 520px; */
+    right: 0px;
+    position: absolute;
+    background-image: url("images/pngwing.com.png");
+  }
+  html::after {
+    content: "";
+    top: 50px;
+    height: 2250px;
+    width: 150px;
+    transform: rotate(180deg);
+    opacity: 0.3;
+    left: 0px;
+    position: absolute;
+    background-image: url("images/pngwing.com.png");
+  }
+  .card{
+   
+    border-radius: 0px;
+    /* border-top-left-radius:20px ; */
+    /* border-bottom-right-radius:20px ; */
+    /* height: 150px; */
+    
+  }
+  /* .card a {
+    margin-top: 40px;
+  }
+  svg[data-toggle=popover]{
+    top: 117px !important;
+  } */
+  
+}
+
+/* ........ BACKGROUND IMAGE TO FILL LEFT SIDE ON LARGER SCREENS............................  */
+/* @media (min-width: 1129px) {
+  html::before {
+    content: "";
+    top: 50px;
+    height: 2270px;
+    width: 520px;
+    max-height: 2270px;
+    max-width: 520px;
+    left: -10px;
+    position: absolute;
+    background-image: url("images/pngwing.com.png");
+    opacity: 0.7;
+  }
+  .navvv {
+    background: linear-gradient(
+      90deg,
+      hsla(0, 100%, 31%, 1) 0%,
+      hsla(330, 6%, 6%, 1) 100%
+    );
+    background: linear-gradient(90deg, hsla(38, 100%, 50%, 1) 0%, hsla(0, 100%, 31%, 1) 100%);
+  }
+
+  .fill {
+    fill: rgb(54 11 12);
+  }
+  .telegramFillWhite {
+    fill: #7a8389;
+  }
+  .navColorWhite {
+    background: -webkit-gradient(
+      linear,
+      left top,
+      right top,
+      from(#848d94),
+      to(#61696b)
+    );
+    background: linear-gradient(90deg, #848d94 0%, #61696b 100%);
+  }
+
+} */

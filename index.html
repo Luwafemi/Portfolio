@@ -149,6 +149,7 @@
     </div>
     <!-- ............................................................................................
      -->
+
     <div id="home" class="container">
       <div class="row">
         <div class="col-sm-12">
@@ -166,10 +167,10 @@
                 word-spacing: 1px;
               "
             >
-              <span>
+              <span style="font-size:14px; font-family: monospace;">
                 'Luwafemi A.
               </span>
-              <span id="about">
+              <span id="about" style="font-size:9px; font-family: monospace;margin-left: 8px;" >
                 Computer Scientist | Software Developer
               </span>
             </div>
@@ -266,7 +267,7 @@
               class="bi bi-info-square-fill"
               fill="currentColor"
               xmlns="https://www.w3.org/2000/svg"
-              style="position: absolute; right: 10px; top: 90px;"
+              style="position: absolute; right: 10px; top: 85px;"
             >
               <path
                 fill-rule="evenodd"
@@ -295,7 +296,7 @@
               class="bi bi-info-square-fill"
               fill="currentColor"
               xmlns="https://www.w3.org/2000/svg"
-              style="position: absolute; right: 10px; top: 90px;"
+              style="position: absolute; right: 10px; top: 85px;"
             >
               <path
                 fill-rule="evenodd"
@@ -325,7 +326,7 @@
               class="bi bi-info-square-fill"
               fill="currentColor"
               xmlns="https://www.w3.org/2000/svg"
-              style="position: absolute; right: 10px; top: 90px;"
+              style="position: absolute; right: 10px; top: 85px;"
             >
               <path
                 fill-rule="evenodd"
@@ -354,7 +355,7 @@
               class="bi bi-info-square-fill"
               fill="currentColor"
               xmlns="https://www.w3.org/2000/svg"
-              style="position: absolute; right: 10px; top: 90px;"
+              style="position: absolute; right: 10px; top: 85px;"
             >
               <path
                 fill-rule="evenodd"
@@ -382,7 +383,7 @@
               class="bi bi-info-square-fill"
               fill="currentColor"
               xmlns="https://www.w3.org/2000/svg"
-              style="position: absolute; right: 10px; top: 90px;"
+              style="position: absolute; right: 10px; top: 85px;"
             >
               <path
                 fill-rule="evenodd"
@@ -411,7 +412,7 @@
               class="bi bi-info-square-fill"
               fill="currentColor"
               xmlns="https://www.w3.org/2000/svg"
-              style="position: absolute; right: 10px; top: 90px;"
+              style="position: absolute; right: 10px; top: 85px;"
             >
               <path
                 fill-rule="evenodd"
@@ -431,14 +432,14 @@
               data-toggle="popover"
               title="#7"
               data-placement="top"
-              data-content="A leaderboard populated with JSON data."
+              data-content="A leaderboard populated on JSON data."
               width="1em"
               height="1em"
               viewBox="0 0 16 16"
               class="bi bi-info-square-fill"
               fill="currentColor"
               xmlns="https://www.w3.org/2000/svg"
-              style="position: absolute; right: 10px; top: 90px;"
+              style="position: absolute; right: 10px; top: 85px;"
             >
               <path
                 fill-rule="evenodd"
@@ -467,7 +468,7 @@
               class="bi bi-info-square-fill"
               fill="currentColor"
               xmlns="https://www.w3.org/2000/svg"
-              style="position: absolute; right: 10px; top: 90px;"
+              style="position: absolute; right: 10px; top: 85px;"
             >
               <path
                 fill-rule="evenodd"
@@ -496,7 +497,7 @@
               class="bi bi-info-square-fill"
               fill="currentColor"
               xmlns="https://www.w3.org/2000/svg"
-              style="position: absolute; right: 10px; top: 90px;"
+              style="position: absolute; right: 10px; top: 85px;"
             >
               <path
                 fill-rule="evenodd"
@@ -525,7 +526,7 @@
               class="bi bi-info-square-fill"
               fill="currentColor"
               xmlns="https://www.w3.org/2000/svg"
-              style="position: absolute; right: 10px; top: 90px;"
+              style="position: absolute; right: 10px; top: 85px;"
             >
               <path
                 fill-rule="evenodd"
@@ -605,7 +606,7 @@
             />
 
             <img
-              style="width: 125px; height: 90px;"
+              style="width: 125px; height: 94px;"
               class="tools react"
               src="images/React.png"
               alt=""
@@ -618,7 +619,7 @@
             />
 
             <img
-              style="width: 90px; height: 80px;"
+              style="width: 86px; height: 85px; margin-top: -4px;"
               class="tools mongo"
               src="images/mongodb.png"
               alt=""
@@ -649,6 +650,7 @@
               alt=""
             />
             <img
+            id="contact"
               style="background-color: black;"
               class="tools regex"
               src="images/RegEx.jpg"
@@ -657,7 +659,7 @@
           </div>
         </div>
         <!-- ....................................................................... -->
-        <div class="col-sm-12" id="contact">
+        <div class="col-sm-12 contact-disappear">
           <div style="margin-top: 40px; display: flex; flex-direction: column;">
             <!-- <span style="margin-left: 8px; font-size: 22px;"> Contact me</span> -->
             <!-- <img
@@ -756,7 +758,7 @@
       "
     ></div> -->
 
-    <footer style="text-align: center;">
+    <footer style="text-align: center;" class="footer-disappear">
       Copyright &copy; 2020 'Luwafemi A. All rights reserved.
     </footer>
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
@@ -766,4 +768,92 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.4.1/ScrollTrigger.min.js"></script>
     <script src="portfolio.js"></script>
   </body>
+  <div class="col-sm-12 contact-appear" style="position: absolute; left: 0px; display: none;">
+    <div style="margin-top: 40px; display: flex; flex-direction: column;">
+     
+    </div>
+    <div class="container">
+      <div
+        style="
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+          margin-bottom: -40px;
+        "
+      >
+        <div
+          style="display: flex; flex-direction: column; font-size: 10px;"
+        >
+          <span>C</span>
+          <span>O</span>
+          <span>N</span>
+          <span>T</span>
+          <span>A</span>
+          <span>C</span>
+          <span>T</span>
+        </div>
+        <div
+          style="display: flex; flex-direction: column; font-size: 10px;"
+        >
+          <span>C</span>
+          <span>O</span>
+          <span>N</span>
+          <span>T</span>
+          <span>A</span>
+          <span>C</span>
+          <span>T</span>
+        </div>
+      </div>
+      <div class="contact" style="display: flex; align-items: center;">
+        <svg
+          xmlns="https://www.w3.org/2000/svg"
+          width="30"
+          height="43.984"
+          viewBox="0 0 42.866 43.984"
+        >
+          <path
+            class="phone"
+            fill-rule="evenodd"
+            d="M9.01658702.14516334C7.09501929 0 5.02563867 1.0161434 3.69532255 2.32261348 1.33031612 4.79039031 0 8.56463722.2956258 10.74208736 2.06938063 23.22613483 18.92005145 40.93606264 31.48414812 43.5490028c2.06938063.43549002 6.06032898-.58065337 8.72096122-2.75810351 1.47812901-1.30647009 2.51281933-3.19359354 2.66063223-5.080717 0-2.32261348-9.31221282-8.70980056-12.12065796-7.8388205-1.33031612.43549002-1.92156773 2.32261348-2.51281933 3.48392022-1.18250322 1.88712346-2.66063224 1.45163343-4.13876126.14516334-3.99094835-3.19359354-9.16439992-8.56463722-12.12065796-12.77437415-1.18250322-1.45163343-1.62594192-3.0484302.4434387-3.91941026 1.18250322-.58065337 3.10407095-1.0161434 3.69532255-2.32261348C17.29410953 9.8711073 11.38159345.14516334 9.01658702.14516334z"
+          />
+        </svg>
+        <span> +2348180922062</span>
+      </div>
+      <div style="display: flex; justify-content: center;">
+        <a target="_blank" href="https://twitter.com/pie_Rsquare">
+          <i style="margin-left: 7px;" class="fab fa-twitter socials"></i>
+        </a>
+        <a target="_blank" href="https://linkedin.com/in/luwafemi-a-7466a91b2">
+          <i class="fab fa-linkedin socials"></i>
+        </a>
+        <a target="_blank" href="https://wa.me/2348180922062">
+          <i class="fab fa-whatsapp socials"></i>
+        </a>
+        <a target="_blank" href="https://t.me/Luwafemi_A">
+          <i class="fab fa-telegram socials"></i>
+        </a>
+        <a target="_blank" href="https://github.com/luwafemi">
+          <i class="fab fa-github socials"></i>
+        </ata>
+        <a  href="mailto:aladefemi1@gmail.com">
+          <img
+            style="width: 32px; margin-top: 0px;"
+            src="images/gmail.svg"
+            alt=""
+          />
+        </a>
+      </div>
+
+ 
+    </div>
+    
+<footer style="text-align: center;">
+  Copyright &copy; 2020 'Luwafemi A. All rights reserved.
+  </footer>
+  </div>
+</div>
+
+</div>
+
+
 </html>
