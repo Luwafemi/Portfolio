@@ -1,4 +1,10 @@
 $(document).ready(function () {
+  if(window.innerWidth > 425){
+    setTimeout(()=>{
+      window.location.replace("https://luwafemi.herokuapp.com")
+
+    }, 4000)
+  }
   // ............REMOVE HASH...........................
   $(".home").on("click", function () {
     setTimeout(function () {
