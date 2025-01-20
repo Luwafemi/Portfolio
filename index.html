@@ -40,115 +40,8 @@
         src="images/sun.png"
         alt="lightMode"
       />
-      <button
-        class="navbar-toggler menu"
-        type="button"
-        aria-controls="navbarSupportedContent"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <img class="menu" src="images/menu-icon.svg" alt="menu" />
-      </button>
     </nav>
-    <div
-      class="navvv collapse navbar-collapse"
-      id="navbarSupportedContent"
-      style="z-index: 4"
-    >
-      <ul class="navbar-nav float-right ml-auto text-right">
-        <li class="nav-item">
-          <div style="margin-top: -25px; margin-bottom: 10">
-            <svg
-              class="section"
-              aria-controls="navbarSupportedContent"
-              aria-expanded="false"
-              xmlns="https://www.w3.org/2000/svg"
-              viewBox="0 0 24 24"
-              fill="white"
-              width="20px"
-              height="20px"
-            >
-              <path
-                d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
-              />
-              <path d="M0 0h24v24H0z" fill="none" />
-            </svg>
-          </div>
 
-          <a class="nav-link home" href="#home">
-            HOME <span class="sr-only">(current)</span>
-          </a>
-        </li>
-        <li class="nav-item about">
-          <a class="nav-link" href="#about"> ABOUT </a>
-        </li>
-        <li class="nav-item projectss">
-          <a class="nav-link" href="#projects"> PROJECTS </a>
-        </li>
-        <li class="nav-item contact">
-          <a class="nav-link" href="#contact"> CONTACT </a>
-        </li>
-
-        <div class="social-icons">
-          <!-- <svg height="100%" version="1.1" viewBox="0 0 512 512" width="100%">
-            <path
-              d="M255.022,511.998l0.229,0.001l-0.079,0l-0.15,-0.001Zm1.806,0.001l-0.079,0l0.229,-0.001l-0.15,0.001Zm-2.588,-0.005l0.247,0.001l-0.142,0l-0.105,-0.001Zm3.415,0.001l-0.142,0l0.247,-0.001l-0.105,0.001Zm-4.169,-0.007l0.165,0.001l-0.132,-0.001l-0.033,0Zm4.995,0l-0.132,0.001l0.165,-0.001l-0.033,0Zm0.826,-0.009l-0.058,0.001l0.223,-0.003l-0.165,0.002Zm-6.779,-0.002l0.223,0.003l-0.058,-0.001l-0.165,-0.002Zm7.604,-0.01l-0.135,0.002l0.275,-0.004l-0.14,0.002Zm-8.404,-0.002l0.275,0.004l-0.135,-0.002l-0.14,-0.002Zm9.228,-0.012l-0.182,0.003l0.254,-0.005l-0.072,0.002Zm-9.984,-0.002l0.254,0.005l-0.182,-0.003l-0.072,-0.002Zm-0.937,-0.019l0.225,0.005l-0.04,-0.001l-0.185,-0.004Zm11.745,0.004l-0.04,0.001l0.225,-0.005l-0.185,0.004Zm-12.567,-0.025l0.309,0.008l-0.125,-0.003l-0.184,-0.005Zm13.39,0.005l-0.125,0.003l0.309,-0.008l-0.184,0.005Zm0.823,-0.022l-0.201,0.006l0.316,-0.009l-0.115,0.003Zm-14.967,-0.003l0.316,0.009l-0.201,-0.006l-0.115,-0.003Zm-0.72,-0.022l0.225,0.007l-0.212,-0.007l-0.194,-0.006l0.181,0.006Zm16.509,0l-0.212,0.007l0.225,-0.007l0.181,-0.006l-0.194,0.006Zm0.821,-0.027l-0.112,0.004l0.345,-0.012l-0.233,0.008Zm-18.371,-0.008l0.345,0.012l-0.112,-0.004l-0.233,-0.008Zm-0.749,-0.028l0.362,0.013l-0.201,-0.007l-0.161,-0.006Zm19.941,0.006l-0.201,0.007l0.362,-0.013l-0.161,0.006Zm-20.676,-0.036l0.354,0.015l-0.277,-0.011l-0.077,-0.004Zm21.495,0.004l-0.277,0.011l0.354,-0.015l-0.077,0.004Zm-22.525,-0.049l0.38,0.017l-0.093,-0.003l-0.287,-0.014Zm23.345,0.014l-0.093,0.003l0.38,-0.017l-0.287,0.014Zm-24.084,-0.048l0.394,0.018l-0.186,-0.008l-0.208,-0.01Zm24.902,0.01l-0.186,0.008l0.394,-0.018l-0.208,0.01Zm-25.63,-0.047l0.397,0.02l-0.279,-0.013l-0.118,-0.007Zm26.448,0.007l-0.279,0.013l0.397,-0.02l-0.118,0.007Zm0.818,-0.043l-0.362,0.019l0.321,-0.017l0.378,-0.021l-0.337,0.019Zm-27.925,0.002l0.321,0.017l-0.362,-0.019l-0.337,-0.019l0.378,0.021Zm28.741,-0.048l-0.16,0.009l0.406,-0.023l-0.246,0.014Zm-29.844,-0.014l0.406,0.023l-0.16,-0.009l-0.246,-0.014Zm-0.722,-0.043l0.405,0.024l-0.253,-0.014l-0.152,-0.01Zm31.382,0.01l-0.253,0.014l0.405,-0.024l-0.152,0.01Zm-32.071,-0.053l0.365,0.023l-0.34,-0.021l-0.342,-0.022l0.317,0.02Zm32.887,0.002l-0.34,0.021l0.365,-0.023l0.317,-0.02l-0.342,0.022Zm0.814,-0.053l-0.122,0.008l0.387,-0.026l-0.265,0.018Zm-34.755,-0.018l0.387,0.026l-0.122,-0.008l-0.265,-0.018Zm-0.721,-0.05l0.38,0.027l-0.208,-0.014l-0.172,-0.013Zm36.29,0.013l-0.208,0.014l0.38,-0.027l-0.172,0.013Zm-37.009,-0.064l0.349,0.025l-0.271,-0.019l-0.078,-0.006Zm37.822,0.006l-0.271,0.019l0.349,-0.025l-0.078,0.006Zm-38.789,-0.079l0.306,0.023l-0.074,-0.005l-0.232,-0.018Zm39.602,0.018l-0.074,0.005l0.306,-0.023l-0.232,0.018Zm0.811,-0.063l-0.146,0.011l0.311,-0.025l-0.165,0.014Zm-41.157,-0.014l0.311,0.025l-0.146,-0.011l-0.165,-0.014Zm-0.725,-0.059l0.264,0.022l-0.186,-0.015l-0.078,-0.007Zm42.694,0.007l-0.186,0.015l0.264,-0.022l-0.078,0.007Zm-43.492,-0.074l0.079,0.007l-0.013,-0.001l-0.066,-0.006Zm44.302,0.006l-0.013,0.001l0.079,-0.007l-0.066,0.006Zm0.81,-0.071l-0.072,0.006l0.181,-0.016l-0.109,0.01Zm-45.965,-0.01l0.181,0.016l-0.072,-0.006l-0.109,-0.01Zm-0.75,-0.068l0.135,0.013l-0.084,-0.008l-0.051,-0.005Zm47.523,0.005l-0.084,0.008l0.135,-0.013l-0.051,0.005Zm-63.736,-2.025c-122.319,-19.226 -216,-125.203 -216,-252.887c0,-141.29 114.71,-256 256,-256c141.29,0 256,114.71 256,256c0,127.684 -93.681,233.661 -216,252.887l0,-178.887l59.65,0l11.35,-74l-71,0l0,-48.021c0,-20.245 9.918,-39.979 41.719,-39.979l32.281,0l0,-63c0,0 -29.296,-5 -57.305,-5c-58.476,0 -96.695,35.44 -96.695,99.6l0,56.4l-65,0l0,74l65,0l0,178.887Z"
-            />
-          </svg>
-
-          <svg height="100%" version="1.0" viewBox="0 0 512 512" width="100%">
-            <path
-              d="M256,0c141.29,0 256,114.71 256,256c0,141.29 -114.71,256 -256,256c-141.29,0 -256,-114.71 -256,-256c0,-141.29 114.71,-256 256,-256Zm0,96c-43.453,0 -48.902,0.184 -65.968,0.963c-17.03,0.777 -28.661,3.482 -38.839,7.437c-10.521,4.089 -19.444,9.56 -28.339,18.455c-8.895,8.895 -14.366,17.818 -18.455,28.339c-3.955,10.177 -6.659,21.808 -7.437,38.838c-0.778,17.066 -0.962,22.515 -0.962,65.968c0,43.453 0.184,48.902 0.962,65.968c0.778,17.03 3.482,28.661 7.437,38.838c4.089,10.521 9.56,19.444 18.455,28.34c8.895,8.895 17.818,14.366 28.339,18.455c10.178,3.954 21.809,6.659 38.839,7.436c17.066,0.779 22.515,0.963 65.968,0.963c43.453,0 48.902,-0.184 65.968,-0.963c17.03,-0.777 28.661,-3.482 38.838,-7.436c10.521,-4.089 19.444,-9.56 28.34,-18.455c8.895,-8.896 14.366,-17.819 18.455,-28.34c3.954,-10.177 6.659,-21.808 7.436,-38.838c0.779,-17.066 0.963,-22.515 0.963,-65.968c0,-43.453 -0.184,-48.902 -0.963,-65.968c-0.777,-17.03 -3.482,-28.661 -7.436,-38.838c-4.089,-10.521 -9.56,-19.444 -18.455,-28.339c-8.896,-8.895 -17.819,-14.366 -28.34,-18.455c-10.177,-3.955 -21.808,-6.66 -38.838,-7.437c-17.066,-0.779 -22.515,-0.963 -65.968,-0.963Zm0,28.829c42.722,0 47.782,0.163 64.654,0.933c15.6,0.712 24.071,3.318 29.709,5.509c7.469,2.902 12.799,6.37 18.397,11.969c5.6,5.598 9.067,10.929 11.969,18.397c2.191,5.638 4.798,14.109 5.509,29.709c0.77,16.872 0.933,21.932 0.933,64.654c0,42.722 -0.163,47.782 -0.933,64.654c-0.711,15.6 -3.318,24.071 -5.509,29.709c-2.902,7.469 -6.369,12.799 -11.969,18.397c-5.598,5.6 -10.928,9.067 -18.397,11.969c-5.638,2.191 -14.109,4.798 -29.709,5.509c-16.869,0.77 -21.929,0.933 -64.654,0.933c-42.725,0 -47.784,-0.163 -64.654,-0.933c-15.6,-0.711 -24.071,-3.318 -29.709,-5.509c-7.469,-2.902 -12.799,-6.369 -18.398,-11.969c-5.599,-5.598 -9.066,-10.928 -11.968,-18.397c-2.191,-5.638 -4.798,-14.109 -5.51,-29.709c-0.77,-16.872 -0.932,-21.932 -0.932,-64.654c0,-42.722 0.162,-47.782 0.932,-64.654c0.712,-15.6 3.319,-24.071 5.51,-29.709c2.902,-7.468 6.369,-12.799 11.968,-18.397c5.599,-5.599 10.929,-9.067 18.398,-11.969c5.638,-2.191 14.109,-4.797 29.709,-5.509c16.872,-0.77 21.932,-0.933 64.654,-0.933Zm0,49.009c-45.377,0 -82.162,36.785 -82.162,82.162c0,45.377 36.785,82.162 82.162,82.162c45.377,0 82.162,-36.785 82.162,-82.162c0,-45.377 -36.785,-82.162 -82.162,-82.162Zm0,135.495c-29.455,0 -53.333,-23.878 -53.333,-53.333c0,-29.455 23.878,-53.333 53.333,-53.333c29.455,0 53.333,23.878 53.333,53.333c0,29.455 -23.878,53.333 -53.333,53.333Zm104.609,-138.741c0,10.604 -8.597,19.199 -19.201,19.199c-10.603,0 -19.199,-8.595 -19.199,-19.199c0,-10.604 8.596,-19.2 19.199,-19.2c10.604,0 19.201,8.596 19.201,19.2Z"
-            />
-          </svg> -->
-
-          <a target="_blank" href="https://twitter.com/pie_Rsquare">
-            <svg height="100%" version="1.1" viewBox="0 0 512 512" width="100%">
-              <path
-                d="M256,0c141.29,0 256,114.71 256,256c0,141.29 -114.71,256 -256,256c-141.29,0 -256,-114.71 -256,-256c0,-141.29 114.71,-256 256,-256Zm-45.091,392.158c113.283,0 175.224,-93.87 175.224,-175.223c0,-2.682 0,-5.364 -0.128,-7.919c12.005,-8.684 22.478,-19.54 30.779,-31.928c-10.983,4.853 -22.861,8.174 -35.377,9.706c12.772,-7.663 22.478,-19.668 27.076,-34.099c-11.878,7.024 -25.032,12.132 -39.081,14.942c-11.239,-12.005 -27.203,-19.412 -44.955,-19.412c-33.972,0 -61.558,27.586 -61.558,61.558c0,4.853 0.511,9.578 1.66,14.048c-51.213,-2.554 -96.552,-27.075 -126.947,-64.368c-5.237,9.068 -8.302,19.668 -8.302,30.907c0,21.328 10.856,40.23 27.459,51.213c-10.09,-0.255 -19.541,-3.065 -27.842,-7.662l0,0.766c0,29.885 21.2,54.661 49.425,60.409c-5.108,1.404 -10.6,2.171 -16.219,2.171c-3.96,0 -7.791,-0.383 -11.622,-1.15c7.79,24.521 30.523,42.274 57.471,42.784c-21.073,16.476 -47.637,26.31 -76.501,26.31c-4.981,0 -9.834,-0.256 -14.687,-0.894c26.948,17.624 59.387,27.841 94.125,27.841Z"
-              />
-            </svg>
-          </a>
-          <a
-            target="_blank"
-            href="https://linkedin.com/in/luwafemi-a-7466a91b2"
-          >
-            <svg height="100%" version="1.1" viewBox="0 0 512 512" width="100%">
-              <path
-                d="M256,0c141.29,0 256,114.71 256,256c0,141.29 -114.71,256 -256,256c-141.29,0 -256,-114.71 -256,-256c0,-141.29 114.71,-256 256,-256Zm-80.037,399.871l0,-199.921l-66.464,0l0,199.921l66.464,0Zm239.62,0l0,-114.646c0,-61.409 -32.787,-89.976 -76.509,-89.976c-35.255,0 -51.047,19.389 -59.889,33.007l0,-28.306l-66.447,0c0.881,18.757 0,199.921 0,199.921l66.446,0l0,-111.65c0,-5.976 0.43,-11.95 2.191,-16.221c4.795,-11.935 15.737,-24.299 34.095,-24.299c24.034,0 33.663,18.34 33.663,45.204l0,106.966l66.45,0Zm-272.403,-296.321c-22.74,0 -37.597,14.95 -37.597,34.545c0,19.182 14.405,34.544 36.717,34.544l0.429,0c23.175,0 37.6,-15.362 37.6,-34.544c-0.43,-19.595 -14.424,-34.545 -37.149,-34.545Z"
-              />
-            </svg>
-          </a>
-          <a target="_blank" href="https://t.me/Luwafemi_A">
-            <svg
-              enable-background="new 0 0 24 24"
-              viewBox="0 0 24 24"
-              width="512"
-              xmlns="https://www.w3.org/2000/svg"
-            >
-              <circle cx="12" cy="12" fill="#black" r="12" />
-              <path
-                d="m5.491 11.74 11.57-4.461c.537-.194 1.006.131.832.943l.001-.001-1.97 9.281c-.146.658-.537.818-1.084.508l-3-2.211-1.447 1.394c-.16.16-.295.295-.605.295l.213-3.053 5.56-5.023c.242-.213-.054-.333-.373-.121l-6.871 4.326-2.962-.924c-.643-.204-.657-.643.136-.953z"
-                class="fill"
-              />
-            </svg>
-          </a>
-          <a target="_blank" href="https://github.com/luwafemi">
-            <svg
-              enable-background="new 0 0 24 24"
-              viewBox="0 0 24 24"
-              width="512"
-              xmlns="https://www.w3.org/2000/svg"
-            >
-              <path
-                d="m12 .5c-6.63 0-12 5.28-12 11.792 0 5.211 3.438 9.63 8.205 11.188.6.111.82-.254.82-.567 0-.28-.01-1.022-.015-2.005-3.338.711-4.042-1.582-4.042-1.582-.546-1.361-1.335-1.725-1.335-1.725-1.087-.731.084-.716.084-.716 1.205.082 1.838 1.215 1.838 1.215 1.07 1.803 2.809 1.282 3.495.981.108-.763.417-1.282.76-1.577-2.665-.295-5.466-1.309-5.466-5.827 0-1.287.465-2.339 1.235-3.164-.135-.298-.54-1.497.105-3.121 0 0 1.005-.316 3.3 1.209.96-.262 1.98-.392 3-.398 1.02.006 2.04.136 3 .398 2.28-1.525 3.285-1.209 3.285-1.209.645 1.624.24 2.823.12 3.121.765.825 1.23 1.877 1.23 3.164 0 4.53-2.805 5.527-5.475 5.817.42.354.81 1.077.81 2.182 0 1.578-.015 2.846-.015 3.229 0 .309.21.678.825.56 4.801-1.548 8.236-5.97 8.236-11.173 0-6.512-5.373-11.792-12-11.792z"
-                fill="black"
-              />
-            </svg>
-          </a>
-        </div>
-      </ul>
-    </div>
     <!-- ............................................................................................
      -->
 
@@ -156,61 +49,60 @@
       <div class="row">
         <div class="col-sm-12">
           <div class="profile" style="display: flex">
-            <div>
-              <img id="avatar" src="images/luwafemi.jpg" alt="profile" />
-            </div>
             <div
               style="
-                font-size: 13px;
                 display: flex;
                 flex-direction: column;
                 margin-top: 40px;
-                margin-left: 10px;
+                margin-left: 0px;
                 word-spacing: 1px;
               "
             >
-              <span style="font-size: 14px; font-family: monospace">
-                'Luwafemi A.
+              <span style="font-size: 20px; font-family: monospace">
+                Oluwafemi A.
               </span>
               <span
                 id="about"
-                style="font-size: 9px; font-family: monospace; margin-left: 8px"
+                style="
+                  font-size: 10px;
+                  font-family: monospace;
+                  line-height: 20px;
+                "
               >
-                Computer Scientist | Software Developer
+                Web Development | Computer Science
               </span>
             </div>
           </div>
         </div>
-        <!-- .............Background Sound/Music............................... -->
-        <!-- <audio autoplay controls hidden>
-          <source
-            src="./Mike Posner - I Took A Pill In Ibiza (Original).mp3"
-            type="audio/mp3"
-          />
-          <embed
-            src="\barbie_diamond_castle_two_voices_one_song_mp3.mp3"
-            loop="false"
-            type="audio/mp3"
-            autostart="true"
-          />
-        </audio> -->
+
         <!-- ................................................................................. -->
         <div
           class="col-sm-12 about"
           style="margin-top: 40px; display: flex; flex-direction: column"
         >
-          <span style="margin-left: 8px; font-size: 22px"> About</span>
+          <span style="margin-left: 0px; font-size: 22px"> About</span>
           <img
             style="width: 80px; margin-bottom: 2em"
             src="images/bottom-line.svg"
             alt="line"
           />
-          <div style="font-size: 14px; word-spacing: 1px">
-            Proficient full-stack Web Developer with a knack for creating
-            aesthetically pleasing, industry-standard products, while paying
-            attention to the smallest of details. Fluent in developing user
-            interfaces, APIs, microservices, and implementing new features based
-            on user feedback.
+          <div
+            style="
+              font-size: 14px;
+              word-spacing: 1px;
+              font-family: monospace;
+              line-height: 25px;
+            "
+          >
+            Full-stack web developer with a knack for creating responsive,
+            user-centric, and scalable products. With a sharp eye for detail, I
+            specialize in building intuitive user interfaces, developing APIs,
+            and enhancing user experience to deliver seamless, impactful
+            solutions.<br />
+            I hold a BSc in Computer Science with Economics (Combined Honours)
+            and bring a practical, purpose-driven approach to every project. I’m
+            passionate about crafting well-structured designs and systems that
+            are not only functional but also visually engaging.
           </div>
         </div>
         <!-- ........................................................................................ -->
@@ -223,28 +115,7 @@
           class="col-md-12"
           style="margin-top: 28px; display: flex; flex-direction: column"
         >
-          <span
-            style="
-              color: cadetblue;
-              display: flex;
-              flex-direction: column;
-              font-size: 8px;
-              margin-bottom: -30px;
-              margin-right: 0px;
-              line-height: 10px;
-            "
-          >
-            <span>p</span>
-            <span>e</span>
-            <span>r</span>
-            <span>s</span>
-            <span>o</span>
-            <span>n</span>
-            <span>a</span>
-            <span>l</span>
-          </span>
-
-          <span class="projects" style="margin-left: 8px; font-size: 22px">
+          <span class="projects" style="margin-left: 0px; font-size: 22px">
             Projects</span
           >
           <img
@@ -271,37 +142,6 @@
               title="#1"
               data-placement="top"
               data-content="A recreation of the cri8tors dot com landing page."
-              width="1em"
-              height="1em"
-              viewBox="0 0 16 16"
-              class="bi bi-info-square-fill"
-              fill="currentColor"
-              xmlns="https://www.w3.org/2000/svg"
-              style="position: absolute; right: 10px; top: 85px"
-            >
-              <path
-                fill-rule="evenodd"
-                d="M0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2zm8.93 4.588l-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM8 5.5a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"
-              />
-            </svg>
-          </div>
-        </div>
-
-        <div class="card text-dark col-md-5 numberTwo">
-          <div class="card-body">
-            <h3>Stories</h3>
-            <a
-              target="_blank"
-              href="https://luwafemi-stories.up.railway.app"
-              class="btn btn-secondary"
-              >Visit</a
-            >
-
-            <svg
-              data-toggle="popover"
-              title="#2"
-              data-placement="top"
-              data-content="Create private and public stories, as well as read stories from other users."
               width="1em"
               height="1em"
               viewBox="0 0 16 16"
@@ -379,36 +219,7 @@
             </svg>
           </div>
         </div>
-        <div class="card text-dark col-md-5">
-          <div class="card-body">
-            <h3>TrackBuddy</h3>
-            <a
-              target="_blank"
-              href="https://luwafemi-trackbuddy.netlify.app/"
-              class="btn btn-secondary"
-              >Visit</a
-            >
 
-            <svg
-              data-toggle="popover"
-              title="#5"
-              data-placement="top"
-              data-content="A simple landing page created using HTML and CSS."
-              width="1em"
-              height="1em"
-              viewBox="0 0 16 16"
-              class="bi bi-info-square-fill"
-              fill="currentColor"
-              xmlns="https://www.w3.org/2000/svg"
-              style="position: absolute; right: 10px; top: 85px"
-            >
-              <path
-                fill-rule="evenodd"
-                d="M0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2zm8.93 4.588l-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM8 5.5a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"
-              />
-            </svg>
-          </div>
-        </div>
         <div class="card text-dark col-md-5">
           <div class="card-body">
             <h3>StarWars</h3>
@@ -439,36 +250,7 @@
             </svg>
           </div>
         </div>
-        <div class="card text-dark col-md-5">
-          <div class="card-body">
-            <h3>Bread&Butter</h3>
-            <a
-              target="_blank"
-              href="https://luwafemi-bb.netlify.app"
-              class="btn btn-secondary"
-              >Visit</a
-            >
 
-            <svg
-              data-toggle="popover"
-              title="#7"
-              data-placement="top"
-              data-content="A simple landing page."
-              width="1em"
-              height="1em"
-              viewBox="0 0 16 16"
-              class="bi bi-info-square-fill"
-              fill="currentColor"
-              xmlns="https://www.w3.org/2000/svg"
-              style="position: absolute; right: 10px; top: 85px"
-            >
-              <path
-                fill-rule="evenodd"
-                d="M0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2zm8.93 4.588l-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM8 5.5a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"
-              />
-            </svg>
-          </div>
-        </div>
         <div class="card text-dark col-md-5">
           <div class="card-body">
             <h3>CardApp</h3>
@@ -529,170 +311,12 @@
             </svg>
           </div>
         </div>
-        <div class="card text-dark col-md-5">
-          <div class="card-body">
-            <h3>Polls</h3>
-            <a
-              target="_blank"
-              href="https://luwafemi-polls.up.railway.app"
-              class="btn btn-secondary"
-              >Visit</a
-            >
 
-            <svg
-              data-toggle="popover"
-              title="#10"
-              data-placement="top"
-              data-content="A polls app developed with the Python Django framework."
-              width="1em"
-              height="1em"
-              viewBox="0 0 16 16"
-              class="bi bi-info-square-fill"
-              fill="currentColor"
-              xmlns="https://www.w3.org/2000/svg"
-              style="position: absolute; right: 10px; top: 85px"
-            >
-              <path
-                fill-rule="evenodd"
-                d="M0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2zm8.93 4.588l-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM8 5.5a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"
-              />
-            </svg>
-          </div>
-        </div>
-
-        <!-- ........................................................................................ -->
-        <div
-          class="col-sm-12 techStack"
-          style="margin-top: 40px; display: flex; flex-direction: column"
-        >
-          <span style="margin-left: 8px; font-size: 22px"> Arsenal</span>
-          <img
-            style="width: 100px; margin-bottom: 2em"
-            src="images/bottom-line.svg"
-            alt="line"
-          />
-          <!-- <span style="font-size: 3em;">
-            <i class="fab fa-html5"></i>
-          </span>
-          <span style="font-size: 3em;">
-            <i class="fab fa-css3"></i>
-          </span>
-          <span style="font-size: 3em;">
-            <i class="fab fa-js-square"></i>
-          </span>
-          <span style="font-size: 3em;">
-            <i class="fab fa-node-js"></i>
-          </span>
-          <span style="font-size: 3em;">
-            <i class="fab fa-html5"></i>
-          </span>
-          <span style="font-size: 3em;">
-            <i class="fab fa-html5"></i>
-          </span>
-          <span style="font-size: 3em;">
-            <i class="fab fa-html5"></i>
-          </span>
-          <span style="font-size: 3em;">
-            <i class="fab fa-html5"></i>
-          </span> -->
-          <div
-            style="
-              display: grid;
-              grid-template-columns: 1fr 1fr;
-              justify-items: center;
-            "
-          >
-            <img class="tools html" src="images/html5.svg" alt="" />
-            <img class="tools css" src="images/css.svg" alt="" />
-            <img
-              style="height: 100px; width: 110px"
-              class="js tools"
-              src="images/javascript.png"
-              alt=""
-            />
-            <img
-              style="margin-top: 19px"
-              class="tools py"
-              src="images/python (1).svg"
-              alt=""
-            />
-            <img
-              style="width: 110px; height: 60px"
-              class="tools sass"
-              src="images/sass.png"
-              alt=""
-            />
-
-            <img
-              style="width: 60px; height: 60px"
-              class="tools bootstrap"
-              src="images/Bootstrap.png"
-              alt=""
-            />
-
-            <img
-              style="width: 125px; height: 94px"
-              class="tools react"
-              src="images/React.png"
-              alt=""
-            />
-            <img
-              style="margin-top: 16px; width: 100px; height: 70px"
-              class="tools node"
-              src="images/nodejs.svg"
-              alt=""
-            />
-
-            <img
-              style="width: 86px; height: 85px; margin-top: -4px"
-              class="tools mongo"
-              src="images/mongodb.png"
-              alt=""
-            />
-            <img
-              style="width: 75px; height: 60px; margin-top: 10px"
-              class="tools materialize"
-              src="images/materialize.png"
-              alt=""
-            />
-
-            <img
-              style="width: 80px; height: 74px"
-              class="tools git"
-              src="images/git.png"
-              alt=""
-            />
-            <img
-              style="width: 69px; height: 70px"
-              class="tools jquery"
-              src="images/jquery.webp"
-              alt=""
-            />
-            <img
-              style="margin-bottom: 30px"
-              class="tools express"
-              src="images/express.png"
-              alt=""
-            />
-            <img
-              id="contact"
-              style="background-color: black"
-              class="tools regex"
-              src="images/RegEx.jpg"
-              alt=""
-            />
-          </div>
-        </div>
         <!-- ....................................................................... -->
         <div class="col-sm-12 contact-disappear">
-          <div style="margin-top: 40px; display: flex; flex-direction: column">
-            <!-- <span style="margin-left: 8px; font-size: 22px;"> Contact me</span> -->
-            <!-- <img
-              style="width: 140px; margin-bottom: 20px;"
-              src="images/bottom-line.svg"
-              alt="line"
-            /> -->
-          </div>
+          <div
+            style="margin-top: 40px; display: flex; flex-direction: column"
+          ></div>
           <div class="container">
             <div
               style="
@@ -767,24 +391,10 @@
                 />
               </a>
             </div>
-
-            <!-- <img class="socials" src="images/twitter.svg" alt="" />
-            <img class="socials" src="images/whatsapp.svg" alt="" />
-            <img style="width: 30px;" src="images/github.svg" alt="" />
-            <img class="socials" src="images/telegram.svg" alt="" />
-            <img class="socials" src="images/linkedin.svg" alt="" /> -->
           </div>
         </div>
       </div>
     </div>
-    <!-- <div
-      style="
-        margin-top: 10px;
-        width: 350px;
-        height: 1px;
-        background-color: grey;
-      "
-    ></div> -->
 
     <footer style="text-align: center" class="footer-disappear">
       Copyright &copy;
@@ -805,7 +415,7 @@
     style="position: absolute; left: 0px; display: none"
   >
     <div style="margin-top: 40px; display: flex; flex-direction: column"></div>
-    <div class="container">
+    <div class="container" style="max-width: 767px">
       <div
         style="
           display: flex;
@@ -846,13 +456,13 @@
             d="M9.01658702.14516334C7.09501929 0 5.02563867 1.0161434 3.69532255 2.32261348 1.33031612 4.79039031 0 8.56463722.2956258 10.74208736 2.06938063 23.22613483 18.92005145 40.93606264 31.48414812 43.5490028c2.06938063.43549002 6.06032898-.58065337 8.72096122-2.75810351 1.47812901-1.30647009 2.51281933-3.19359354 2.66063223-5.080717 0-2.32261348-9.31221282-8.70980056-12.12065796-7.8388205-1.33031612.43549002-1.92156773 2.32261348-2.51281933 3.48392022-1.18250322 1.88712346-2.66063224 1.45163343-4.13876126.14516334-3.99094835-3.19359354-9.16439992-8.56463722-12.12065796-12.77437415-1.18250322-1.45163343-1.62594192-3.0484302.4434387-3.91941026 1.18250322-.58065337 3.10407095-1.0161434 3.69532255-2.32261348C17.29410953 9.8711073 11.38159345.14516334 9.01658702.14516334z"
           />
         </svg>
-        <span> +2348180922062</span>
+        <span> +2348131039152</span>
       </div>
       <div style="display: flex; justify-content: center">
-        <a target="_blank" href="https://twitter.com/pie_Rsquare">
+        <a target="_blank" href="https://x.com/luwafemii">
           <i style="margin-left: 7px" class="fab fa-twitter socials"></i>
         </a>
-        <a target="_blank" href="https://linkedin.com/in/luwafemi-a-7466a91b2">
+        <a target="_blank" href="www.linkedin.com/in/oluwafemi-alade-7466a91b2">
           <i class="fab fa-linkedin socials"></i>
         </a>
         <a target="_blank" href="https://wa.me/2348180922062">
