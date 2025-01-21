@@ -22,18 +22,10 @@
   </head>
 
   <body id="root" class="root">
-    <!-- <ul class="transition">
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-    </ul>
-    <div class="hello">
-      <img class="emoji" src="images/emoji1.png" alt="happyFace" />
-      <h1>HELLO !</h1>
-    </div> -->
-    <nav class="navbar navbar-light bg-dark fixed-top">
+    <nav
+      class="navbar navbar-light bg-dark fixed-top"
+      style="background-color: #111 !important"
+    >
       <img
         class="switch"
         style="width: 40px"
@@ -46,6 +38,17 @@
      -->
 
     <div id="home" class="container">
+      <!-- <ul class="transition">
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+      </ul>
+      <div class="hello">
+        <img class="emoji" src="images/emoji1.png" alt="happyFace" />
+        <h1>HELLO !</h1>
+      </div> -->
       <div class="row">
         <div class="col-sm-12">
           <div class="profile" style="display: flex">
@@ -119,194 +122,76 @@
           />
         </div>
 
-        <!-- ........................CARDS..................................... -->
-        <div class="card text-dark col-md-5">
-          <div class="card-body">
-            <h3>Cri8tors</h3>
-            <a
-              target="_blank"
-              href="https://luwafemi-cri8tors.netlify.app"
-              class="btn btn-secondary"
-              >Visit</a
-            >
-
-            <svg
-              data-toggle="popover"
-              title="#1"
-              data-placement="top"
-              data-content="A recreation of the cri8tors dot com landing page."
-              width="1em"
-              height="1em"
-              viewBox="0 0 16 16"
-              class="bi bi-info-square-fill"
-              fill="currentColor"
-              xmlns="https://www.w3.org/2000/svg"
-              style="position: absolute; right: 10px; top: 75px"
-            >
-              <path
-                fill-rule="evenodd"
-                d="M0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2zm8.93 4.588l-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM8 5.5a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"
-              />
-            </svg>
+        <!-- ...........CARDS START.................................................. -->
+        <div
+          class="projectCardsContainer"
+          style="
+            display: flex;
+            flex-wrap: wrap;
+            gap: 30px;
+            justify-content: space-evenly;
+            align-items: center;
+          "
+        >
+          <div style="position: relative">
+            <div class="projectCard">
+              <h3>Cri8tors</h3>
+            </div>
+            <div class="button">
+              <a target="_blank" href="https://luwafemi-cri8tors.netlify.app"
+                >→</a
+              >
+            </div>
+          </div>
+          <div style="position: relative">
+            <div class="projectCard">
+              <h3>PipBoy</h3>
+            </div>
+            <div class="button">
+              <a target="_blank" href="https://luwafemi-pipboy.netlify.app"
+                >→</a
+              >
+            </div>
+          </div>
+          <div style="position: relative">
+            <div class="projectCard">
+              <h3>StarGame</h3>
+            </div>
+            <div class="button">
+              <a target="_blank" href="https://luwafemi-stargame.netlify.app"
+                >→</a
+              >
+            </div>
+          </div>
+          <div style="position: relative">
+            <div class="projectCard"><h3>StarWars</h3></div>
+            <div class="button">
+              <a target="_blank" href="https://luwafemi-starwars.netlify.app"
+                >→</a
+              >
+            </div>
+          </div>
+          <div style="position: relative">
+            <div class="projectCard"><h3>CardApp</h3></div>
+            <div class="button">
+              <a target="_blank" href="https://luwafemi-cardapp.netlify.app"
+                >→</a
+              >
+            </div>
+          </div>
+          <div style="position: relative">
+            <div class="projectCard">
+              <h3>ChatBot</h3>
+            </div>
+            <div class="button">
+              <a target="_blank" href="https://luwafemi-chatbot.netlify.app"
+                >→</a
+              >
+            </div>
           </div>
         </div>
-
-        <div class="card text-dark col-md-5 numberThree">
-          <div class="card-body">
-            <h3>PipBoy</h3>
-            <a
-              target="_blank"
-              href="https://luwafemi-pipboy.netlify.app"
-              class="btn btn-secondary"
-              >Visit</a
-            >
-
-            <svg
-              data-toggle="popover"
-              title="#3"
-              data-placement="top"
-              data-content="The famous Pip boy brought to life on the web."
-              width="1em"
-              height="1em"
-              viewBox="0 0 16 16"
-              class="bi bi-info-square-fill"
-              fill="currentColor"
-              xmlns="https://www.w3.org/2000/svg"
-              style="position: absolute; right: 10px; top: 75px"
-            >
-              <path
-                fill-rule="evenodd"
-                d="M0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2zm8.93 4.588l-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM8 5.5a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"
-              />
-            </svg>
-          </div>
-        </div>
-        <div class="card text-dark col-md-5">
-          <div class="card-body">
-            <h3>StarGame</h3>
-            <a
-              target="_blank"
-              href="https://luwafemi-stargame.netlify.app"
-              class="btn btn-secondary"
-              >Visit</a
-            >
-
-            <!-- prettier-ignore -->
-            <svg
-              data-toggle="popover"
-              title="#4"
-              data-placement="top"
-              data-content="Can you beat the ten seconds timer to finish the game of stars? Let's find out &#9829;."
-              width="1em"
-              height="1em"
-              viewBox="0 0 16 16"
-              class="bi bi-info-square-fill"
-              fill="currentColor"
-              xmlns="https://www.w3.org/2000/svg"
-              style="position: absolute; right: 10px; top: 75px;"
-            >
-              <path
-                fill-rule="evenodd"
-                d="M0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2zm8.93 4.588l-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM8 5.5a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"
-              />
-            </svg>
-          </div>
-        </div>
-
-        <div class="card text-dark col-md-5">
-          <div class="card-body">
-            <h3>StarWars</h3>
-            <a
-              target="_blank"
-              href="https://luwafemi-starwars.netlify.app"
-              class="btn btn-secondary"
-              >Visit</a
-            >
-
-            <svg
-              data-toggle="popover"
-              title="#6"
-              data-placement="top"
-              data-content="A React (Gatsby) app displaying various StarWars data from a public API."
-              width="1em"
-              height="1em"
-              viewBox="0 0 16 16"
-              class="bi bi-info-square-fill"
-              fill="currentColor"
-              xmlns="https://www.w3.org/2000/svg"
-              style="position: absolute; right: 10px; top: 75px"
-            >
-              <path
-                fill-rule="evenodd"
-                d="M0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2zm8.93 4.588l-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM8 5.5a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"
-              />
-            </svg>
-          </div>
-        </div>
-
-        <div class="card text-dark col-md-5">
-          <div class="card-body">
-            <h3>CardApp</h3>
-            <a
-              target="_blank"
-              href="https://luwafemi-cardapp.netlify.app"
-              class="btn btn-secondary"
-              >Visit</a
-            >
-
-            <svg
-              data-toggle="popover"
-              title="#8"
-              data-placement="top"
-              data-content="Need to find a user from Github? Simply type in the username, and get it delivered."
-              width="1em"
-              height="1em"
-              viewBox="0 0 16 16"
-              class="bi bi-info-square-fill"
-              fill="currentColor"
-              xmlns="https://www.w3.org/2000/svg"
-              style="position: absolute; right: 10px; top: 75px"
-            >
-              <path
-                fill-rule="evenodd"
-                d="M0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2zm8.93 4.588l-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM8 5.5a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"
-              />
-            </svg>
-          </div>
-        </div>
-        <div class="card text-dark col-md-5 numberOne">
-          <div class="card-body">
-            <h3>ChatBot</h3>
-            <a
-              target="_blank"
-              href="https://luwafemi-chatbot.netlify.app"
-              class="btn btn-secondary"
-              >Visit</a
-            >
-            <!-- prettier-ignore -->
-            <svg
-              data-toggle="popover"
-              title="#9"
-              data-placement="top"
-              data-content="Bored? Need a fun bot to interact with? Voilà! You're on the right one &#9829;."
-              width="1em"
-              height="1em"
-              viewBox="0 0 16 16"
-              class="bi bi-info-square-fill"
-              fill="currentColor"
-              xmlns="https://www.w3.org/2000/svg"
-              style="position: absolute; right: 10px; top: 75px;"
-            >
-              <path
-                fill-rule="evenodd"
-                d="M0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2zm8.93 4.588l-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM8 5.5a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"
-              />
-            </svg>
-          </div>
-        </div>
-
-        <!-- ....................................................................... -->
-        <div class="col-sm-12 contact-disappear">
+        <!-- ...........CARDS END............................................................ -->
+        <div class="col-sm-12">
           <div
             style="margin-top: 40px; display: flex; flex-direction: column"
           ></div>
@@ -356,7 +241,7 @@
                 />
               </svg>
               <span style="font-size: 14px; line-height: 25px">
-                +2348131039152</span
+                +2348180922062</span
               >
             </div>
             <div style="display: flex; justify-content: center">
@@ -392,7 +277,7 @@
       </div>
     </div>
 
-    <footer style="text-align: center" class="footer-disappear">
+    <footer style="text-align: center">
       Copyright &copy;
       <script>
         document.write(new Date().getFullYear());
@@ -406,90 +291,4 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.4.1/ScrollTrigger.min.js"></script>
     <script src="portfolio.js"></script>
   </body>
-  <div
-    class="col-sm-12 contact-appear"
-    style="position: absolute; left: 0px; display: none"
-  >
-    <div style="margin-top: 40px; display: flex; flex-direction: column"></div>
-    <div class="container" style="max-width: 767px">
-      <div
-        style="
-          display: flex;
-          flex-direction: row;
-          justify-content: space-between;
-          margin-bottom: -40px;
-        "
-      >
-        <div style="display: flex; flex-direction: column; font-size: 9px">
-          <span>C</span>
-          <span>O</span>
-          <span>N</span>
-          <span>T</span>
-          <span>A</span>
-          <span>C</span>
-          <span>T</span>
-        </div>
-        <div style="display: flex; flex-direction: column; font-size: 9px">
-          <span>C</span>
-          <span>O</span>
-          <span>N</span>
-          <span>T</span>
-          <span>A</span>
-          <span>C</span>
-          <span>T</span>
-        </div>
-      </div>
-      <div class="contact" style="display: flex; align-items: center">
-        <svg
-          xmlns="https://www.w3.org/2000/svg"
-          width="30"
-          height="43.984"
-          viewBox="0 0 42.866 43.984"
-        >
-          <path
-            class="phone"
-            fill-rule="evenodd"
-            d="M9.01658702.14516334C7.09501929 0 5.02563867 1.0161434 3.69532255 2.32261348 1.33031612 4.79039031 0 8.56463722.2956258 10.74208736 2.06938063 23.22613483 18.92005145 40.93606264 31.48414812 43.5490028c2.06938063.43549002 6.06032898-.58065337 8.72096122-2.75810351 1.47812901-1.30647009 2.51281933-3.19359354 2.66063223-5.080717 0-2.32261348-9.31221282-8.70980056-12.12065796-7.8388205-1.33031612.43549002-1.92156773 2.32261348-2.51281933 3.48392022-1.18250322 1.88712346-2.66063224 1.45163343-4.13876126.14516334-3.99094835-3.19359354-9.16439992-8.56463722-12.12065796-12.77437415-1.18250322-1.45163343-1.62594192-3.0484302.4434387-3.91941026 1.18250322-.58065337 3.10407095-1.0161434 3.69532255-2.32261348C17.29410953 9.8711073 11.38159345.14516334 9.01658702.14516334z"
-          />
-        </svg>
-        <span style="font-size: 14px; line-height: 25px"> +2348131039152</span>
-      </div>
-      <div style="display: flex; justify-content: center">
-        <a
-          target="_blank"
-          href="https://linkedin.com/in/oluwafemi-alade-7466a91b2"
-        >
-          <i class="fab fa-linkedin socials"></i>
-        </a>
-        <a target="_blank" href="https://github.com/luwafemi">
-          <i class="fab fa-github socials"></i>
-        </a>
-        <a target="_blank" href="https://wa.me/2348180922062">
-          <i class="fab fa-whatsapp socials"></i>
-        </a>
-        <a target="_blank" href="https://t.me/Luwafemi_A">
-          <i class="fab fa-telegram socials"></i>
-        </a>
-
-        <a target="_blank" href="https://x.com/luwafemii">
-          <i style="margin-left: 0px" class="fab fa-twitter socials"></i>
-        </a>
-        <a href="mailto:aladefemi1@gmail.com">
-          <img
-            style="width: 32px; margin-top: 0px"
-            src="images/gmail.svg"
-            alt=""
-          />
-        </a>
-      </div>
-    </div>
-
-    <footer style="text-align: center">
-      Copyright &copy;
-      <script>
-        document.write(new Date().getFullYear());
-      </script>
-      'Luwafemi A. All rights reserved.
-    </footer>
-  </div>
 </html>

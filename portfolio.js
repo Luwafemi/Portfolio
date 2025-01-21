@@ -23,13 +23,15 @@ $(document).ready(function () {
   // ................. PAGE TRANSITION..........................
   var tl = gsap.timeline();
 
+  // tl.to("ul.transition li", {
+  //   backgroundColor: "hsla(192, 95%, 50%, 1)",
+  //   // backgroundColor: "grey",
+  //   // repeat: 1,
+  // });
+
   tl.to("ul.transition li", {
-    backgroundColor: "hsla(192, 95%, 50%, 1)",
-    repeat: 4,
+    backgroundColor: "black",
   })
-    .to("ul.transition li", {
-      backgroundColor: "black",
-    })
     .to(".hello", {
       opacity: 1,
       duration: 2,
