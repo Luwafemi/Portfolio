@@ -9,18 +9,15 @@
       name="viewport"
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
-
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css"
       integrity="sha256-2XFplPlrFClt0bIdPgpz8H7ojnk10H69xRqd9+uTShA="
       crossorigin="anonymous"
     />
-
     <link rel="stylesheet" href="./bootstrap.min.css" />
     <link rel="stylesheet" href="portfolio.css" />
   </head>
-
   <body id="root" class="root">
     <nav
       class="navbar navbar-light bg-dark fixed-top"
@@ -33,10 +30,6 @@
         alt="lightMode"
       />
     </nav>
-
-    <!-- ............................................................................................
-     -->
-
     <div id="home" class="container">
       <ul class="transition">
         <li></li>
@@ -77,8 +70,6 @@
             </div>
           </div>
         </div>
-
-        <!-- ................................................................................. -->
         <div
           class="col-sm-12 about"
           style="margin-top: 40px; display: flex; flex-direction: column"
@@ -101,12 +92,10 @@
             are not only functional but also visually engaging.
           </div>
         </div>
-        <!-- ........................................................................................ -->
         <a
           style="height: 10px; border: 1px solid transparent"
           id="projects"
         ></a>
-
         <div
           class="col-md-12"
           style="margin-top: 28px; display: flex; flex-direction: column"
@@ -121,8 +110,7 @@
             alt="line"
           />
         </div>
-
-        <!-- ...........CARDS START.................................................. -->
+        <!-- ...........CARDS START............... -->
         <div
           class="projectCardsContainer"
           style="
@@ -137,7 +125,13 @@
             <div class="projectCard">
               <h3>Cri8tors</h3>
             </div>
-            <div class="button">
+            <div
+              class="button"
+              data-toggle="popover"
+              data-content="A recreation of the cri8tors dot com landing page."
+              data-placement="top"
+              data-trigger="hover"
+            >
               <a target="_blank" href="https://luwafemi-cri8tors.netlify.app"
                 >→</a
               >
@@ -147,7 +141,13 @@
             <div class="projectCard">
               <h3>PipBoy</h3>
             </div>
-            <div class="button">
+            <div
+              class="button"
+              data-toggle="popover"
+              data-content="The famous Pip boy brought to life on the web."
+              data-placement="top"
+              data-trigger="hover"
+            >
               <a target="_blank" href="https://luwafemi-pipboy.netlify.app"
                 >→</a
               >
@@ -157,7 +157,13 @@
             <div class="projectCard">
               <h3>StarGame</h3>
             </div>
-            <div class="button">
+            <div
+              class="button"
+              data-toggle="popover"
+              data-content="Can you beat the ten seconds timer to finish the game of stars? Let's find out &#9829;."
+              data-placement="top"
+              data-trigger="hover"
+            >
               <a target="_blank" href="https://luwafemi-stargame.netlify.app"
                 >→</a
               >
@@ -165,7 +171,13 @@
           </div>
           <div style="position: relative">
             <div class="projectCard"><h3>StarWars</h3></div>
-            <div class="button">
+            <div
+              class="button"
+              data-toggle="popover"
+              data-content="A React (Gatsby) app displaying various StarWars data from a public API."
+              data-placement="top"
+              data-trigger="hover"
+            >
               <a target="_blank" href="https://luwafemi-starwars.netlify.app"
                 >→</a
               >
@@ -173,7 +185,13 @@
           </div>
           <div style="position: relative">
             <div class="projectCard"><h3>CardApp</h3></div>
-            <div class="button">
+            <div
+              class="button"
+              data-toggle="popover"
+              data-content="Need to find a user from Github? Simply type in the username, and get it delivered."
+              data-placement="top"
+              data-trigger="hover"
+            >
               <a target="_blank" href="https://luwafemi-cardapp.netlify.app"
                 >→</a
               >
@@ -183,14 +201,20 @@
             <div class="projectCard">
               <h3>ChatBot</h3>
             </div>
-            <div class="button">
+            <div
+              class="button"
+              data-toggle="popover"
+              data-content="Bored? Need a fun bot to interact with? Voilà! You're on the right one &#9829;."
+              data-placement="top"
+              data-trigger="hover"
+            >
               <a target="_blank" href="https://luwafemi-chatbot.netlify.app"
                 >→</a
               >
             </div>
           </div>
         </div>
-        <!-- ...........CARDS END............................................................ -->
+        <!-- ...........CARDS END............... -->
         <div class="col-sm-12">
           <div
             style="margin-top: 40px; display: flex; flex-direction: column"
@@ -260,15 +284,24 @@
               <a target="_blank" href="https://t.me/Luwafemi_A">
                 <i class="fab fa-telegram socials"></i>
               </a>
-
               <a target="_blank" href="https://x.com/luwafemii">
-                <i style="margin-left: 0px" class="fab fa-twitter socials"></i>
+                <!-- <i style="margin-left: 0px" class="fab fa-twitter socials"></i> -->
+                <img
+                  style="
+                    height: 28px;
+                    margin-top: 2px;
+                    margin-left: -7px;
+                    margin-right: 11px;
+                  "
+                  src="images/x-twitter.svg"
+                  alt="x-icon"
+                />
               </a>
               <a href="mailto:aladefemi1@gmail.com">
                 <img
                   style="width: 32px; margin-top: 0px"
                   src="images/gmail.svg"
-                  alt=""
+                  alt="gmail-icon"
                 />
               </a>
             </div>
@@ -276,7 +309,6 @@
         </div>
       </div>
     </div>
-
     <footer style="text-align: center">
       Copyright &copy;
       <script>
@@ -287,8 +319,8 @@
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="bootstrap.bundle.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.4.0/gsap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.4.0/CSSRulePlugin.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.4.1/ScrollTrigger.min.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.4.0/CSSRulePlugin.min.js"></script> -->
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.4.1/ScrollTrigger.min.js"></script> -->
     <script src="portfolio.js"></script>
   </body>
 </html>

@@ -9,49 +9,37 @@ html,
 body {
   margin: 0;
 }
-.fill {
-  fill: #14316a;
-}
 .phone {
   fill: white;
 }
 .root {
   background-color: #111;
-  /* background-color: #151515; */
-  /* background-color: black; */
   color: #fff;
   font-family: monospace, sans-serif;
   max-width: 720px;
   height: 100%;
 }
-
 .navbar.navbar-light.bg-dark.fixed-top {
   background-color: black !important;
   z-index: 3;
 }
-
 /* ...........................SCROLLBAR...................................... */
 ::-webkit-scrollbar {
   width: 10px;
   background-color: #fff;
 }
-
 ::-webkit-scrollbar-track {
   background-color: #050303;
 }
-
 ::-webkit-scrollbar-thumb {
   background-color: #f5f9fa;
   border-radius: 10px;
   border: 2px solid #fff;
 }
-
 /* ................................................................. */
-
 .profile {
   margin-top: 50px;
 }
-
 .contact {
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -59,7 +47,6 @@ body {
   flex-direction: column;
   margin-bottom: 19px;
 }
-
 .contact::after {
   content: "";
   width: 95%;
@@ -68,21 +55,13 @@ body {
   margin: auto;
   margin-top: 4px;
 }
-
 footer {
   padding-bottom: 10px;
   margin-top: 50px;
-  /* color: rgb(0 255 49 / 28%); */
-  /* color: #bed4ff; */
-  /* color: #9cff00; */
-  /* color: rgb(5, 141, 159); */
   font-style: italic;
   font-size: 8px;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
-    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: sans-serif;
 }
-
 .socials {
   font-size: 30px;
   margin-right: 18px;
@@ -91,12 +70,10 @@ footer {
 a {
   text-decoration: none;
 }
-
 .btn-secondary:focus {
   -webkit-box-shadow: none;
   box-shadow: none;
 }
-
 ul.transition {
   position: fixed;
   height: 100%;
@@ -107,23 +84,15 @@ ul.transition {
   left: 0;
   pointer-events: none;
   list-style: none;
-  /* display: -webkit-box; */
-  /* display: -ms-flexbox; */
-  /* padding: 0; */
-  /* top: 0; */
-  /* margin: 0; */
 }
-
 ul.transition li {
   background: white;
   width: 20%;
   margin: 0;
   padding: 0;
 }
-
 .hello {
   font-family: Chewy, monospace;
-
   color: green;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -146,39 +115,18 @@ ul.transition li {
   pointer-events: none;
   margin-top: 180px;
 }
-
 .emoji {
   height: 100px;
   margin-bottom: 50px;
 }
-
 .backgroundColorWhite {
   background-color: #ebe5e5;
   color: black;
 }
-
-.telegramFillWhite {
-  fill: #7a8389;
-}
-
-/* .footerColorWhite {
-  color: #746c09;
-} */
-
 .phoneColorWhite {
   fill: #998f8f;
 }
-
-.popover-header {
-  color: slategray;
-}
-
-.popover-body {
-  font-family: monospace;
-}
-
-/* .........Cards................
- */
+/* ..........................Cards................*/
 .projectCard {
   display: flex;
   justify-content: center;
@@ -215,9 +163,6 @@ ul.transition li {
   font-size: 14px;
   color: #fff;
 }
-/* .projectCardsContainer > div:nth-child(2n) > div.button {
-  background-color: rgb(5, 141, 159);
-} */
 .button {
   position: absolute;
   bottom: 10px;
@@ -237,9 +182,17 @@ ul.transition li {
   color: #111;
   transform: rotate(-45deg);
 }
+.popover {
+  width: 95px;
+  font-size: 9px;
+  line-height: 20px;
+}
+.popover-body {
+  background-color: #111;
+  color: #fff;
+}
 
-/* MEDIA QUERIES - MEDIA QUERIES - MEDIA QUERIES - MEDIA QUERIES - MEDIA QUERIES  */
-/* 
+/*........................... MEDIA QUERIES............................................
 Extra small     <576px
 Small           >=576px
 Medium          >=768px
@@ -248,15 +201,7 @@ Extra large     >=1200px
  */
 
 @media (min-width: 768px) {
-  .col-md-5 {
-    flex: 0 0 330px;
-  }
-  /* ul.transition {
-    height: 2557px;
-  } */
   body {
-    max-width: 800px;
-    margin-left: auto;
-    margin-right: auto;
+    margin-inline: auto;
   }
 }
