@@ -1,0 +1,95 @@
+warning: in the working copy of 'index.html', CRLF will be replaced by LF the next time Git touches it
+[1mdiff --git a/index.html b/index.html[m
+[1mindex 88cd3e4..b2fefb9 100644[m
+[1m--- a/index.html[m
+[1m+++ b/index.html[m
+[36m@@ -31,7 +31,7 @@[m
+       />[m
+     </nav>[m
+     <div id="home" class="container">[m
+[31m-      <!-- <ul class="transition">[m
+[32m+[m[32m      <ul class="transition">[m
+         <li></li>[m
+         <li></li>[m
+         <li></li>[m
+[36m@@ -40,7 +40,7 @@[m
+       </ul>[m
+       <div class="hello">[m
+         <img class="emoji" src="images/emoji1.png" alt="happyFace" />[m
+[31m-        <h1>HELLO !</h1> -->[m
+[32m+[m[32m        <h1>HELLO !</h1>[m
+       </div>[m
+       <div class="row">[m
+         <div class="col-sm-12">[m
+[36m@@ -121,36 +121,36 @@[m
+             align-items: center;[m
+           "[m
+         >[m
+[31m-        <div style="position: relative">[m
+[31m-          <div class="projectCard"><h3>HangMan</h3></div>[m
+[31m-          <div[m
+[31m-            class="button"[m
+[31m-            data-toggle="popover"[m
+[31m-            data-content="Guess the word in under 9 attempts or you have to learn Assembly."[m
+[31m-            data-placement="top"[m
+[31m-            data-trigger="hover"[m
+[31m-          >[m
+[31m-            <a target="_blank" href="https://luwafemi-hangman.netlify.app"[m
+[31m-              >→</a[m
+[32m+[m[32m          <div style="position: relative">[m
+[32m+[m[32m            <div class="projectCard"><h3>HangMan</h3></div>[m
+[32m+[m[32m            <div[m
+[32m+[m[32m              class="button"[m
+[32m+[m[32m              data-toggle="popover"[m
+[32m+[m[32m              data-content="Guess the word in under 9 attempts or you have to learn Assembly."[m
+[32m+[m[32m              data-placement="top"[m
+[32m+[m[32m              data-trigger="hover"[m
+             >[m
+[32m+[m[32m              <a target="_blank" href="https://luwafemi-hangman.netlify.app"[m
+[32m+[m[32m                >→</a[m
+[32m+[m[32m              >[m
+[32m+[m[32m            </div>[m
+           </div>[m
+[31m-        </div>[m
+[31m-        <div style="position: relative">[m
+[31m-          <div class="projectCard">[m
+[31m-            <h3>StarGame</h3>[m
+[31m-          </div>[m
+[31m-          <div[m
+[31m-            class="button"[m
+[31m-            data-toggle="popover"[m
+[31m-            data-content="Can you beat the ten seconds timer to finish the game of stars? Let's find out &#9829;."[m
+[31m-            data-placement="top"[m
+[31m-            data-trigger="hover"[m
+[31m-          >[m
+[31m-            <a target="_blank" href="https://luwafemi-stargame.netlify.app"[m
+[31m-              >→</a[m
+[32m+[m[32m          <div style="position: relative">[m
+[32m+[m[32m            <div class="projectCard">[m
+[32m+[m[32m              <h3>StarGame</h3>[m
+[32m+[m[32m            </div>[m
+[32m+[m[32m            <div[m
+[32m+[m[32m              class="button"[m
+[32m+[m[32m              data-toggle="popover"[m
+[32m+[m[32m              data-content="Can you beat the ten seconds timer to finish the game of stars? Let's find out &#9829;."[m
+[32m+[m[32m              data-placement="top"[m
+[32m+[m[32m              data-trigger="hover"[m
+             >[m
+[32m+[m[32m              <a target="_blank" href="https://luwafemi-stargame.netlify.app"[m
+[32m+[m[32m                >→</a[m
+[32m+[m[32m              >[m
+[32m+[m[32m            </div>[m
+           </div>[m
+[31m-        </div>[m
+           <div style="position: relative">[m
+             <div class="projectCard">[m
+               <h3>Cri8tors</h3>[m
+[36m@@ -166,7 +166,7 @@[m
+                 >→</a[m
+               >[m
+             </div>[m
+[31m-          </div>   [m
+[32m+[m[32m          </div>[m
+           <div style="position: relative">[m
+             <div class="projectCard">[m
+               <h3>PipBoy</h3>[m
