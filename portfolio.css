@@ -177,7 +177,10 @@ ul.transition li {
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
   cursor: pointer;
 }
-.button a {
+.button:hover {
+  text-decoration: none;
+}
+.button span {
   font-weight: bold;
   color: #111;
   transform: rotate(-45deg);
